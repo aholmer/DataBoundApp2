@@ -1,0 +1,13 @@
+﻿<vm:MainViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:DataBoundApp2.ViewModels"
+    xmlns:models="clr-namespace:DataBoundApp2.Models"
+    xmlns:con="clr-namespace:DataBoundApp2.Converter"
+    SampleProperty="Sample Text Property Value">
+
+    <vm:MainViewModel.NewestItem>
+        <models:KelvinItem Id = "1" Temperature = "25" />
+    </vm:MainViewModel.NewestItem>
+
+</vm:MainViewModel>
